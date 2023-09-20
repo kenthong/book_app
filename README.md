@@ -27,12 +27,12 @@ It allow the user using GraphQL to search, filter, sort the book data.
 
 The code is under book_app_server.
 Read the book_app_server/README.md before star the GraphQL server.
-[book_app_server](book_app_server/README.md)
+[book_app_server/README.md](book_app_server/README.md)
 
 ## Book application client part
 The clinet part is base on React.
 Read the book_app_client/README.md before star the book app.
-[book_app_client](book_app_client/README.md)
+[book_app_client/README.md](book_app_client/README.md)
 
 ## Dependencies
 1: A recent version Node.js installed
