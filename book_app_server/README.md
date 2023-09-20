@@ -12,17 +12,23 @@ It allow the user using GraphQL to search, filter, sort the book data.
 This book_app_server needs a recent version Node.js installed
 
 To install the Node.js, you can use Node Version Manager (nvm)
+
 https://github.com/nvm-sh/nvm
 
-To install the latest Node.js
-nvm install --lts
 https://nodejs.org/en
 
+To install the lts Node.js
+
+nvm install --lts
+
 run "node -v" to check node is installed
+
 node -v
+
 v18.18.0
 
 It also need to install npm 
+
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 run "npm -v" to check npm is installed
