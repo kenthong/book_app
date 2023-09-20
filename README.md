@@ -25,7 +25,7 @@ This application  allow users to:
 This book app mock GraphQL server is base on Apollo Server
 https://www.apollographql.com/docs/apollo-server/
 
-The books data sample is download from 
+The books data sample is downloaded from 
 https://example-data.draftbit.com/books
 
 It just for demo or development.

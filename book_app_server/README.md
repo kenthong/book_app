@@ -2,7 +2,7 @@
 This book app mock GraphQL server is base on Apollo Server
 https://www.apollographql.com/docs/apollo-server/
 
-The books data sample is download from 
+The books data sample is downloaded from 
 https://example-data.draftbit.com/books
 
 It just for demo or development.
@@ -68,3 +68,7 @@ Test the GraphQL query like in the browser:
 }`
 
 ![GraphQL query sample](img/server.PNG)
+
+## Important notice
+The mock GraphQL server is listen on localhost port 4000.
+So the Book app client must run on same host as this mock GraphQL server to access the data.
