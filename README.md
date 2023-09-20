@@ -34,5 +34,6 @@ Read the book_app_client/README.md before star the book app.
 
 ## Dependencies
 1: A recent version Node.js installed
+
 2: A recent version npm installed
 
