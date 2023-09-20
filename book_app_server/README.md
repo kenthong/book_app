@@ -81,8 +81,6 @@ from
 
 host : '127.0.0.1'  to  host : '0.0.0.0'
 
-https://github.com/kenthong/book_app/blob/main/book_app_server/index.js
-
 Let the mock GraphQL server linsten on a public IP. 
 
 At the same time make sure you open the port 4000 on the firewall. 
@@ -90,7 +88,7 @@ At the same time make sure you open the port 4000 on the firewall.
 So We can access the data from outside.
 
 And We also need to change the GraphQL server API URI in the Book app client :
-https://github.com/kenthong/book_app/blob/main/book_app_client/src/api/GraphQLClient.js
+
 
 [book_app_client/src/api/GraphQLClient.js](../book_app_client/src/api/GraphQLClient.js)
 
@@ -98,5 +96,5 @@ uri: 'http://localhost:4000/'
 
 Change the 'localhost' to your public IP.
 
-This was tested only on tested on Windows 10  and Ubuntu 22 environment.
+This was only tested on Windows 10  and Ubuntu 22 environment.
 
