@@ -3,11 +3,11 @@ import { onError } from "@apollo/client/link/error";
 
 const errorLink = onError(({ graphQLErrors, networkError }) => {
   if (graphQLErrors) {
-      console.log(graphQLErrors);
+      console.log('GraphQ error:', graphQLErrors.message);
   }
 
   if (networkError) {
-      console.log(networkError);
+      console.log('Network error:', networkError.message);
   }
 });
 const httpLink = new HttpLink({ uri: 'http://localhost:4000/' })

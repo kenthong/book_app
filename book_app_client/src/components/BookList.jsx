@@ -42,9 +42,10 @@ const BookList = () => {
         });
       } catch(error) {
         if (error instanceof ApolloError) {
-          console.log('ApolloError:');
+          console.log('Apollo Error:', error.message);
+        } else {
+          console.log('Other Error:', error.message);
         }
-        console.log(error);
       }
   },[searchTerm, filterby, sortby, orderby]);
   
