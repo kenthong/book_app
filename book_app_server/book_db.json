@@ -1,4 +1,4 @@
-export const bookdb = [
+[
   {
     "id": 19,
     "title": "Les Misérables",
@@ -4251,4 +4251,4 @@ export const bookdb = [
     "genres": "Entertainment",
     "id": 275
   }
-];
+]
