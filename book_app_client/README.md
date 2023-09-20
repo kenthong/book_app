@@ -21,9 +21,6 @@ node -v
 
 v18.18.0
 
-It also need to install npm 
-https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
-
 run "npm -v" to check npm is installed
 
 
