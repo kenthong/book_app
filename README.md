@@ -46,3 +46,5 @@ Read the book_app_client/README.md before star the book app.
 The mock GraphQL server is  listen on localhost port 4000.
 So the Book app client must run on same host as this mock GraphQL server to access the data.
 This mock GraphQL server and the Book application client only tested on Windows 10  and Ubuntu 22 environment.
+
+To make the mock GraphQL server run on a separate host, please read the  [book_app_server/README.md](book_app_server/README.md)
