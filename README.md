@@ -20,7 +20,7 @@ This application  allow users to:
 2: A recent version npm installed
 
 
-## This book applications have two part:
+## This book applications have two parts:
 ## 1: GraphQL server part
 This book app mock GraphQL server is base on Apollo Server
 https://www.apollographql.com/docs/apollo-server/
