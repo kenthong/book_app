@@ -13,9 +13,15 @@ This application  allow users to:
 
 5. Reserve a book.
 
-This book applications have two part:
 
-## GraphQL server part
+## Dependencies
+1: A recent version Node.js installed
+
+2: A recent version npm installed
+
+
+## This book applications have two part:
+## 1: GraphQL server part
 This book app mock GraphQL server is base on Apollo Server
 https://www.apollographql.com/docs/apollo-server/
 
@@ -25,17 +31,18 @@ https://example-data.draftbit.com/books
 It just for demo or development.
 It allow the user using GraphQL to search, filter, sort the book data.
 
+
 The code is under book_app_server.
 Read the book_app_server/README.md before star the GraphQL server.
 [book_app_server/README.md](book_app_server/README.md)
 
-## Book application client part
+## 2: Book application client part
 The clinet part is base on React.
 Read the book_app_client/README.md before star the book app.
 [book_app_client/README.md](book_app_client/README.md)
 
-## Dependencies
-1: A recent version Node.js installed
 
-2: A recent version npm installed
-
+## Important notice
+The mock GraphQL server is  listen on localhost port 4000.
+So the Book app client must run on same host as this mock GraphQL server to access the data.
+This mock GraphQL server and the Book application client only tested on Windows 10  and Ubuntu 22 environment.
