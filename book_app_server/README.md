@@ -73,9 +73,9 @@ Test the GraphQL query like in the browser:
 The mock GraphQL server is listen on localhost port 4000.
 So the Book app client must run on same host as this mock GraphQL server to access the data.
 
-To make the mock GraphQL server run on a separate  host, you can change the host in the 
+To make the mock GraphQL server run on a separate host, you can change the host in the 
 
-[book_app_server/index.js](book_app_server/index.js)
+[book_app_server/index.js](index.js)
 
 from 
 
@@ -92,7 +92,7 @@ So We can access the data from outside.
 And We also need to change the GraphQL server API URI in the Book app client :
 https://github.com/kenthong/book_app/blob/main/book_app_client/src/api/GraphQLClient.js
 
-[book_app_client/src/api/GraphQLClient.js](book_app_client/src/api/GraphQLClient.js)
+[book_app_client/src/api/GraphQLClient.js](../book_app_client/src/api/GraphQLClient.js)
 
 uri: 'http://localhost:4000/' 
 
